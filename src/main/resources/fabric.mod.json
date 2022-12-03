@@ -4,13 +4,12 @@
   "version": "${version}",
 
   "name": "Haste Potion Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "This simple 1.19.2 fabric mod introduces haste potions into the game. They can be brewed using an emerald block and last 10 minutes.",
   "authors": [
     "starfall"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/mdbrnd/HastePotionMod"
   },
 
   "license": "MIT License",
@@ -20,9 +19,6 @@
   "entrypoints": {
     "main": [
       "net.starfall.hpm.HastePotionMod"
-    ],
-    "client": [
-      "net.starfall.hpm.HastePotionModClient"
     ]
   },
   "mixins": [
