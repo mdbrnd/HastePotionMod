@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "hpm",
+  "version": "${version}",
+
+  "name": "Haste Potion Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "starfall"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/hpm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.starfall.hpm.HastePotionMod"
+    ],
+    "client": [
+      "net.starfall.hpm.HastePotionModClient"
+    ]
+  },
+  "mixins": [
+    "hpm.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
